@@ -1,3 +1,6 @@
+@import "utilities";
+@import "config";
+@import "btnConfig";
 
 * {
   box-sizing: border-box;
@@ -20,6 +23,30 @@ a {
 }
 
 .hero {
+    nav{  
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h1{
+        text-align: left;
+      }
+      ul{
+        display:flex;
+        justify-content: flex-end;
+        
+
+        li{
+          margin-left: 10px;
+          list-style-type: none;
+
+          a{
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
