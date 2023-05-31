@@ -23,12 +23,15 @@ a {
 }
 
 .hero {
+  .box{
+    background-color: $primary-color;
     nav{  
       display: flex;
       justify-content: space-between;
       align-items: center;
       h1{
         text-align: left;
+        color: white;
       }
       ul{
         display:flex;
@@ -41,12 +44,14 @@ a {
 
           a{
             text-decoration: none;
+            color: white;
             padding: 10px;
             margin-right: 10px;
           }
         }
       }
     }
+  }
   // This is where the bulk of the SCSS styling needs to be done
 
   // Take a look at the other files we've built already. How can they be useful here?
