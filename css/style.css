@@ -54,7 +54,8 @@ a {
 
 .hero .box {
   background-color: #000814;
-  width: 100vw;
+  max-width: none;
+  margin-bottom: 10rem;
 }
 .hero .box nav {
   display: flex;
@@ -78,6 +79,18 @@ a {
   color: white;
   padding: 10px;
   margin-right: 10px;
+}
+
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+}
+.hero-content h1 {
+  color: white;
+}
+.hero-content p {
+  color: white;
 }
 
 .m-1 {

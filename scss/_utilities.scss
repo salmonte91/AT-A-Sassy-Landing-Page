@@ -11,7 +11,6 @@
   @mixin set-bg($color) {
     background-color: $color;
     color: text-color-picker($color);
-    @content
   }
   
   // Standard CSS

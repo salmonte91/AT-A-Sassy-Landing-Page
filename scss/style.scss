@@ -22,21 +22,24 @@ a {
   text-decoration: none;
 }
 
-.hero {
+.hero{
   .box{
     background-color: $primary-color;
+    max-width: none;
+    margin-bottom: 10rem;
+
     nav{  
       display: flex;
       justify-content: space-between;
       align-items: center;
+      
       h1{
         text-align: left;
         color: white;
       }
       ul{
         display:flex;
-        justify-content: flex-end;
-        
+        justify-content: flex-end;        
 
         li{
           margin-left: 10px;
@@ -60,6 +63,18 @@ a {
   // 1. $variables
   // 2. nesting (dont forget about the ampersand (&) parent selector!)
   // 3. At-Rules
+}
+
+.hero-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 10rem;
+  h1{
+    color: white;
+  }
+  p{
+    color: white;
+  }
 }
 
 // This code is related to some of the aspects of SCSS we have yet to cover.
